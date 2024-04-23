@@ -30,6 +30,7 @@ const Step = ({ emoji, text }) => {
   );
 };
 
+
 // Problem Agitation: A crucial, yet overlooked, component for a landing page that sells.
 // It goes under your Hero section, and above your Features section.
 // Your Hero section makes a promise to the customer: "Our product will help you achieve XYZ".
@@ -44,23 +45,22 @@ const Problem = () => {
     <section className="bg-neutral text-neutral-content">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          80% of startups fail because founders never launch
+          97% of visitors aren't ready to buy
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          Emails, DNS records, user authentication... There&apos;s so much going
-          on.
+        All the time and money spent on influencers, ads, SEO, and content marketing goes to waste. Potential token buyers leave and never come back.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-          <Step emoji="🧑‍💻" text="8 hrs to add Stripe" />
+          <Step emoji="🫣" text="Potential customer is interested" />
 
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😮‍💨" text="Struggle to find time" />
+          <Step emoji="🫤" text="Doesn't find a reason to buy right now" />
 
           <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😔" text="Quit project" />
+          <Step emoji="😬" text="Leaves and never comes back" />
         </div>
       </div>
     </section>

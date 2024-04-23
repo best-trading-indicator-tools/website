@@ -2,12 +2,12 @@ import themes from "daisyui/src/theming/themes.js";
 
 const config = {
   // REQUIRED
-  appName: "ShipFast",
+  appName: "SalesPoop",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+    "With SalesPoop, in just a couple of clicks, you create a sense of urgency that customers simply can’t ignore.  With this “fear of missing out” triggered in their minds, they’ll complete their purchase right away.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "shipfa.st",
+  domainName: "salespoop.com",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
@@ -28,16 +28,16 @@ const config = {
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
         description: "Perfect for small projects",
         // The price you want to display, the one user will be charged on Stripe.
-        price: 79,
+        price: 19,
         // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-        priceAnchor: 99,
+        priceAnchor: 39,
         features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
+          { name: "Web SalesPoopup",},
+          { name: "Discord notifications" },
+          { name: "Telegram notifications" },
+          { name: "1 website" },
+          { name: "1 year of updates" },
+          { name: "24/7 support" },
         ],
       },
       {
@@ -49,15 +49,13 @@ const config = {
             : "price_456",
         name: "Advanced",
         description: "You need more power",
-        price: 99,
-        priceAnchor: 149,
+        price: 39,
+        priceAnchor: 79,
         features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
+          { name: "Web SalesPoopup",},
+          { name: "Discord notifications" },
+          { name: "Telegram notifications" },
+          { name: "Unlimited websites" },
           { name: "1 year of updates" },
           { name: "24/7 support" },
         ],
@@ -84,10 +82,10 @@ const config = {
   },
   colors: {
     // REQUIRED — The DaisyUI theme to use (added to the main layout.js). Leave blank for default (light & dark mode). If you any other theme than light/dark, you need to add it in config.tailwind.js in daisyui.themes.
-    theme: "light",
+    theme: "autumn",
     // REQUIRED — This color will be reflected on the whole app outside of the document (loading bar, Chrome tabs, etc..). By default it takes the primary color from your DaisyUI theme (make sure to update your the theme name after "data-theme=")
     // OR you can just do this to use a custom color: main: "#f37055". HEX only.
-    main: themes[`[data-theme=light]`]["primary"],
+    main: themes[`[data-theme=autumn]`]["primary"],
   },
   auth: {
     // REQUIRED — the path to log in users. It's use to protect private routes (like /dashboard). It's used in apiClient (/libs/api.js) upon 401 errors from our API

@@ -19,4 +19,9 @@ progress::-webkit-progress-value {
   .btn {
     @apply !capitalize;
   }
+
+  h3.inline {
+    font-size: 20px;
+  }
+
 }

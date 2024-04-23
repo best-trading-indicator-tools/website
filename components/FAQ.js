@@ -7,25 +7,63 @@ import { useRef, useState } from "react";
 
 const faqList = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "Can't I just code my own?",
+    answer: <div className="space-y-2 leading-relaxed">Sure you can! But will users trust you? By using a WEB 3 third party, you show your users that you're not trying to trick them. If they click on the verified badge, they will be sent on a page that proove the transaction are real. You don't just get a poopup, you get trust.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: "What is SalesPoop?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        SalesPopup is a real-time sales popup that helps you increase your conversion rate. It shows recent sales on your website to create social proof and drive more sales.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "Do I need to code?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <p>
+        You don't. All you need to do is copy and paste a small code snippet in your website's <strong>head</strong> tag. Wordpress, Shopify, Webflow, Bubble, Wix, etc. are all supported.
+      </p>
+    ),
+  },
+  {
+    question: "Does SalesPoop work on Mobile?",
+    answer: (
+      <p>
+        Yes! Only one PoopUp will be displayed at a time to avoid cluttering your visitor's screen.
+      </p>
+    ),
+  },
+  {
+    question: "What can I customize?",
+    answer: (
+      <p>
+        For now you can customize the following:<br /><br />
+        <ul>
+          <li>- SalesPoop title</li>
+          <li>- SalesPoop body</li>
+          <li>- SalesPoop Icon</li>
+          <li>- When are SalesPoops firing</li>
+          <li>- How often are SalesPoops firing</li>
+          <li>- How long are SalesPoops displayed</li>
+        </ul>
+      </p>
+    ),
+  },
+  {
+    question: "Can I hide transactions older than X days?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">Yes, you can specify a number of days to only show transactions that are more recent than that. This way you can keep your poopup fresh and relevant.</div>
+    ),
+  },
+  {
+    question: "What if I need help?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">Ready to help! Contact us through live chat or email at contact@salespoop.com</div>
     ),
   },
 ];
+
 
 const Item = ({ item }) => {
   const accordion = useRef(null);
