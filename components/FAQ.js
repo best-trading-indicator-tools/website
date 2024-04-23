@@ -8,7 +8,7 @@ import { useRef, useState } from "react";
 const faqList = [
   {
     question: "Can't I just code my own?",
-    answer: <div className="space-y-2 leading-relaxed">Sure you can! But will users trust you? By using a WEB 3 third party, you show your users that you're not trying to trick them. If they click on the verified badge, they will be sent on a page that proove the transaction are real. You don't just get a poopup, you get trust.</div>,
+    answer: <div className="space-y-2 leading-relaxed">Sure you can! But will users trust you? By using a WEB 3 third party, you show your users that you&apos;re not trying to trick them. If they click on the verified badge, they will be sent on a page that proove the transaction are real. You don&apos;t just get a poopup, you get trust.</div>,
   },
   {
     question: "What is SalesPoop?",
@@ -22,7 +22,7 @@ const faqList = [
     question: "Do I need to code?",
     answer: (
       <p>
-        You don't. All you need to do is copy and paste a small code snippet in your website's <strong>head</strong> tag. Wordpress, Shopify, Webflow, Bubble, Wix, etc. are all supported.
+        You don&apos;t. All you need to do is copy and paste a small code snippet in your website&apos;s <strong>head</strong> tag. Wordpress, Shopify, Webflow, Bubble, Wix, etc. are all supported.
       </p>
     ),
   },
@@ -30,7 +30,7 @@ const faqList = [
     question: "Does SalesPoop work on Mobile?",
     answer: (
       <p>
-        Yes! Only one PoopUp will be displayed at a time to avoid cluttering your visitor's screen.
+        Yes! Only one PoopUp will be displayed at a time to avoid cluttering your visitor&apos;s screen.
       </p>
     ),
   },

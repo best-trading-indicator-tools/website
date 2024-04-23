@@ -6,7 +6,7 @@ const WithWithout = () => {
     <section className="bg-base-100">
       <div className="max-w-5xl mx-auto px-8 py-16 md:py-32 ">
         <h2 className="text-center font-extrabold text-3xl md:text-5xl tracking-tight mb-12 md:mb-20">
-        It's all about trust!
+        It&apos;s all about trust!
         </h2>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 md:gap-12">
@@ -38,7 +38,7 @@ const WithWithout = () => {
 
           <div className="bg-success/20 text-success p-8 md:p-12 rounded-lg w-full">
             <h3 className="font-bold text-lg mb-4">
-            You don't just get a popup, you get trust.
+            You don&apos;t just get a popup, you get trust.
             </h3>
 
             <ul className="list-disc list-inside space-y-1.5 ">
