@@ -39,12 +39,14 @@ const faqList = [
     answer: (
       <div className="space-y-2 leading-relaxed">
         For now you can customize the following:<br /><br />
+        <ul>
           <li>- SalesPoop title</li>
           <li>- SalesPoop body</li>
           <li>- SalesPoop Icon</li>
           <li>- When are SalesPoops firing</li>
           <li>- How often are SalesPoops firing</li>
           <li>- How long are SalesPoops displayed</li>
+        </ul>
         </div>
     ),
   },

@@ -21,6 +21,10 @@ const links = [
     href: "/#faq",
     label: "FAQ",
   },
+  {
+    href: "/changelog",
+    label: "Changelog",
+  },
 ];
 
 const cta = <ButtonSignin extraStyle="btn-primary" />;
